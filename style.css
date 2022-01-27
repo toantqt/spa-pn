@@ -3789,3 +3789,72 @@ a.button.btn-border:hover {
 #modalVideo span {
   margin-bottom: 10px;
 }
+
+.news {
+  min-height: 500px;
+}
+.news .lists-news {
+  margin-top: 30px;
+}
+.news .head-title {
+  text-align: center;
+}
+.news .head-title h3 {
+  color: #0d47a1 !important;
+}
+
+.wrap-news {
+  min-height: 200px;
+  background-color: #ccc;
+  border-radius: 10px;
+  box-shadow: 0 14px 25px rgb(0 0 0 / 16%);
+}
+
+.wrap-news:hover {
+  cursor: pointer;
+}
+
+.wrap-news .img-news {
+  width: 100%;
+  height: 200px;
+}
+.wrap-news .img-news img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.wrap-news .bottom-title {
+  text-align: center;
+  min-height: 60px;
+  padding: 15px;
+  background-color: #0d47a1;
+  font-size: 17px;
+  font-weight: 500;
+  color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.wrap-news .bottom-title:hover {
+  color: #dcaf26;
+  cursor: pointer;
+}
+
+.news .details-news {
+  font-size: 17px;
+}
+.news .details-news .content span {
+  line-height: 1.5;
+}
+.news .details-news .content img {
+  width: 100%;
+  height: auto !important;
+  margin: 0 auto;
+}
+
+.news .details-news .content .item-img {
+  margin-top: 10px;
+}
