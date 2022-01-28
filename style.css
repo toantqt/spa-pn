@@ -3791,6 +3791,7 @@ a.button.btn-border:hover {
 }
 
 .news {
+  margin-top: 50px;
   min-height: 500px;
 }
 .news .lists-news {
@@ -3857,4 +3858,9 @@ a.button.btn-border:hover {
 
 .news .details-news .content .item-img {
   margin-top: 10px;
+}
+
+.title-item {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }

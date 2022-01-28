@@ -1,22 +1,22 @@
 @media (min-width: 1920px) {
-	#dichvu .row .about-img img{
-		height: 420px !important;
-	}
-	#dichvu .row{
-		margin-bottom: 120px;
-	}
-	#gioithieu .img-top img{
-		height: 720px !important
-	}
-	 .gallery-img img {
+  #dichvu .row .about-img img {
+    height: 420px !important;
+  }
+  #dichvu .row {
+    margin-bottom: 120px;
+  }
+  #gioithieu .img-top img {
+    height: 720px !important;
+  }
+  .gallery-img img {
     height: 220px !important;
   }
   .blog-img img {
     height: 200px !important;
   }
-	.zoom img{
-	height: 300px !important;
-	}
+  .zoom img {
+    height: 300px !important;
+  }
 }
 
 /* lage destop */
@@ -24,9 +24,9 @@
   .slider-container img {
     height: 1000px !important;
   }
-	.zoom img{
-	height: 300px !important;
-	}
+  .zoom img {
+    height: 300px !important;
+  }
   .gallery-img img {
     height: 400px !important;
   }
@@ -65,12 +65,12 @@
   #cauhoi {
     margin-top: 200px !important;
   }
-	#dichvu .row{
-		margin-bottom: 100px;
-	}
-	#dichvu .row .about-img img{
-		height: 600px !important;
-	}
+  #dichvu .row {
+    margin-bottom: 100px;
+  }
+  #dichvu .row .about-img img {
+    height: 600px !important;
+  }
 
   .title-video {
     margin-top: 200px !important;
@@ -207,6 +207,12 @@
 
 /* Tablet desktop :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
+  .wrap-news {
+    margin-top: 20px;
+  }
+  .wrap-news .img-news {
+    height: 400px;
+  }
   .boxed-layout .wrapper {
     width: 100%;
   }
@@ -387,6 +393,12 @@
 
 /* small mobile :320px. */
 @media (max-width: 767px) {
+  .wrap-news {
+    margin-top: 20px;
+  }
+  .wrap-news .img-news {
+    height: 280px;
+  }
   .slider-container img {
     /* height: 180px !important; */
   }
